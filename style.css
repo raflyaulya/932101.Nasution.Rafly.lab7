@@ -1,0 +1,27 @@
+.fixed-top{
+    position: fixed;
+}
+
+input{
+    width: 160px;
+}
+
+.square{
+    position: relative;
+    background-color: red;
+    border: 1px solid black;
+}
+
+.circle{
+    position: relative;
+    background-color: green;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+.triangle{
+    position: relative;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    border-bottom: 50px solid blue;
+}
